@@ -14,7 +14,7 @@ model1 = load_model(r'models\weights_skin_cancer.h5')
 
 model.make_predict_function()
 model1.make_predict_function()
-cls = {0: 'Alopecia Areta', 1: 'Normal', 2: 'Skin Cancer'}
+cls = {0: 'Actinic Keratosis', 1: 'Normal', 2: 'Skin Cancer'}
 
 
 def model_predict(img_path, model):
